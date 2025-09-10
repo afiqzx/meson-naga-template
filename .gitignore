@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+subprojects/*
+!subprojects/*.wrap
+
+.cache/clangd/**/*
+compile_commands.json
